@@ -1,8 +1,8 @@
-# Informed Search
+# Heuristics
 
 ## What this program covers
 
-Greedy Best-First Search, Best-First Search, Dijkstra, A*, Beam Search, RBFS, IDA* and Weighted A*.
+The program demonstrates admissible heuristics, satisficing search and heuristic generation from smaller subproblems using the 8-puzzle.
 
 ## Run
 
@@ -10,4 +10,4 @@ Greedy Best-First Search, Best-First Search, Dijkstra, A*, Beam Search, RBFS, ID
 python solution.py
 ```
 
-The program prints the path, path cost and number of expanded nodes for each method.
+The program compares misplaced-tile, Manhattan and subproblem heuristics.
