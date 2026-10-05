@@ -1,8 +1,8 @@
-# Uninformed Search
+# Informed Search
 
 ## What this program covers
 
-This file implements BFS, Uniform-Cost Search, DFS, Depth-Limited Search, Iterative Deepening Search and Bidirectional Search.
+Greedy Best-First Search, Best-First Search, Dijkstra, A*, Beam Search, RBFS, IDA* and Weighted A*.
 
 ## Run
 
@@ -10,8 +10,4 @@ This file implements BFS, Uniform-Cost Search, DFS, Depth-Limited Search, Iterat
 python solution.py
 ```
 
-The program asks for the algorithm, start node and goal node.
-
-## Main idea
-
-The algorithms use the same graph so that their behaviour can be compared using path cost and nodes expanded.
+The program prints the path, path cost and number of expanded nodes for each method.
