@@ -1,12 +1,12 @@
-# UGV - Dynamic Obstacles
+# Indian Route Search
 
 ## Requirement
 
-Navigate when obstacles can move and are not known in advance.
+The original question uses the Romania map from Arad to Bucharest. The assignment note says to implement the same problem using Indian routes.
 
-## Approach
+## Algorithm
 
-The UGV senses nearby obstacles, updates its internal map, replans with A*, and then moves one step. This repeats until the goal is reached or the step limit is reached.
+A* search is used with a straight-line distance heuristic based on city coordinates.
 
 ## Run
 
